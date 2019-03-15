@@ -16,8 +16,8 @@ export class MainNavigationComponent implements OnInit {
   }
 
   onClickLogin() {
-    const width = '430';
-    const height = '200';
+    const width = '270';
+    const height = '310';
     const opt = {
       width,
       height
