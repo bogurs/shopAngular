@@ -9,11 +9,8 @@ import { MainComponent } from './home/main/main.component';
 import { MainNavigationComponent } from './home/main/main-navigation/main-navigation.component';
 import { MainFooterComponent } from './home/main/main-footer/main-footer.component';
 import { MainContentComponent } from './home/main/main-content/main-content.component';
-import { LoginComponent } from './auth/login/login.component';
-import {MatDialogModule} from '@angular/material';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import {AuthModule} from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -21,20 +18,16 @@ import {HttpClientModule} from '@angular/common/http';
     MainComponent,
     MainNavigationComponent,
     MainFooterComponent,
-    MainContentComponent,
-    LoginComponent
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     NgbModule,
-    MatDialogModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AuthModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  entryComponents: [LoginComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
