@@ -1,9 +1,9 @@
-package shop.goodstudy.mall.customer.vo;
+package shop.goodstudy.mall.customer.model;
 
 import lombok.Data;
 
 @Data
-public class Auth {
+public class Customer {
     private String customerId;
     private String customerPw;
     private String customerName;
