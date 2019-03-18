@@ -5,12 +5,12 @@ import {routes} from './app-routing.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { MainComponent } from './home/main/main.component';
-import { MainNavigationComponent } from './home/main/main-navigation/main-navigation.component';
-import { MainFooterComponent } from './home/main/main-footer/main-footer.component';
-import { MainContentComponent } from './home/main/main-content/main-content.component';
+import { MainComponent } from './components/home/main/main.component';
+import { MainNavigationComponent } from './components/home/main/main-navigation/main-navigation.component';
+import { MainFooterComponent } from './components/home/main/main-footer/main-footer.component';
+import { MainContentComponent } from './components/home/main/main-content/main-content.component';
 import {HttpClientModule} from '@angular/common/http';
-import {AuthModule} from './auth/auth.module';
+import {AuthModule} from './components/auth/auth.module';
 
 @NgModule({
   declarations: [
