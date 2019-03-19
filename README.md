@@ -1,6 +1,11 @@
 # shopAngular  
 * spring-boot로 구현한 웹 애플리케이션을 Angular를 추가하여 REST API 프로젝트로 만들기
 * spring-boot 프로젝트는 API(Back-end)로, Angular 프로젝트는 WEB(Front-end)으로서 동작
+## 프로젝트 초기 셋팅
+* git pull
+* shop 프로젝트: maven build 및 java 11버전 설정> MallApplication.java 실행
+* web 프로젝트: 터미널로 web경로 이동> npm install 명령어 입력> npm start 명령어 입력
+* shop, web 모두 실행 후 http://localhost:4200 으로 접속
 ## 1. Angular CLI로 간단한 웹 페이지 만들기  
 ### 1-1. Node.js 설치  
 * Node Package Manager(NPM)을 이용해서 Angular가 만들어졌기 때문에 Angular 기능을 이용하기 위해서는 Node.js를 설치해야 한다.
